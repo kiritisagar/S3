@@ -1,0 +1,18 @@
+Buckets:Containers for storing objects
+Naming: Must be globally unique. Use lowercase letters, numbers, hyphens, and periods.
+
+Storage Classes
+Standard: Frequent access, low latency, high durability.
+Intelligent-Tiering: Moves data between two access tiers when access patterns change.
+One Zone-IA: Lower cost for infrequently accessed data stored in a single availability zone.
+Glacier: Long-term archival with retrieval times ranging from minutes to hours.
+Glacier Deep Archive: Lowest-cost storage for data that is rarely accessed.
+
+Object Versioning
+Definition: Keeps multiple versions of an object.
+Configuration: Enable versioning in bucket properties.
+Benefits: Recover from accidental deletions or overwrites
+
+Static Website Hosting
+Use Case: Serve static content (e.g., HTML, CSS, JS).
+Configuration: Enable static website hosting in the bucket properties and specify index and error documents.
